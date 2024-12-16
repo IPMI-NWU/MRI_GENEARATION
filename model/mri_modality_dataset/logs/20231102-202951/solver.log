@@ -1,0 +1,15 @@
+2023-11-02 20:29:51,824:solver:gpu_index: 1
+2023-11-02 20:29:51,825:solver:batch_size: 1
+2023-11-02 20:29:51,825:solver:dataset: mri_modality_dataset
+2023-11-02 20:29:51,825:solver:is_train: True
+2023-11-02 20:29:51,825:solver:learning_rate: 0.0002
+2023-11-02 20:29:51,825:solver:beta1: 0.5
+2023-11-02 20:29:51,825:solver:iters: 200000
+2023-11-02 20:29:51,825:solver:print_freq: 100
+2023-11-02 20:29:51,825:solver:save_freq: 500
+2023-11-02 20:29:51,826:solver:sample_freq: 500
+2023-11-02 20:29:51,826:solver:load_model: None
+2023-11-02 20:32:40,770:solver: [*] Model saved! Iter: 499
+2023-11-02 21:03:56,175:solver: [*] Reading checkpoint...
+2023-11-02 21:03:58,907:solver: [*] Load iter_time: 499
+2023-11-02 21:03:58,907:solver: [*] Load SUCCESS!

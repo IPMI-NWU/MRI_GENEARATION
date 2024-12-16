@@ -1,0 +1,517 @@
+2024-12-12 21:21:38,147:tensorflow_utils:concat[1, 384, 384, 6]
+2024-12-12 21:21:38,154:tensorflow_utils:generator_dwi/gen1_e0_conv2d/BiasAdd[1, 192, 192, 64]
+2024-12-12 21:21:38,206:tensorflow_utils:generator_dwi/gen1_e1_conv2d/BiasAdd[1, 96, 96, 128]
+2024-12-12 21:21:38,294:tensorflow_utils:generator_dwi/gen1_e2_conv2d/BiasAdd[1, 48, 48, 256]
+2024-12-12 21:21:38,381:tensorflow_utils:generator_dwi/gen1_e3_conv2d/BiasAdd[1, 24, 24, 512]
+2024-12-12 21:21:38,512:tensorflow_utils:generator_dwi/gen1_e4_conv2d/BiasAdd[1, 12, 12, 512]
+2024-12-12 21:21:38,600:tensorflow_utils:generator_dwi/gen1_e5_conv2d/BiasAdd[1, 6, 6, 512]
+2024-12-12 21:21:38,687:tensorflow_utils:generator_dwi/gen1_e6_conv2d/BiasAdd[1, 3, 3, 512]
+2024-12-12 21:21:38,776:tensorflow_utils:generator_dwi/gen1_d1_deconv2d/BiasAdd[1, 6, 6, 512]
+2024-12-12 21:21:38,780:tensorflow_utils:generator_dwi/gen1_d1_split[1, 6, 6, 512]
+2024-12-12 21:21:38,876:tensorflow_utils:generator_dwi/gen1_d2_deconv2d/BiasAdd[1, 12, 12, 512]
+2024-12-12 21:21:38,877:tensorflow_utils:generator_dwi/gen1_d2_split[1, 12, 12, 512]
+2024-12-12 21:21:38,971:tensorflow_utils:generator_dwi/gen1_d3_conv2d_11/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:38,979:tensorflow_utils:generator_dwi/gen1_d3_deconv2d/BiasAdd[1, 24, 24, 512]
+2024-12-12 21:21:38,980:tensorflow_utils:generator_dwi/gen1_d3_split_1[1, 24, 24, 512]
+2024-12-12 21:21:38,981:tensorflow_utils:generator_dwi/d3_split_2[1, 24, 24, 512]
+2024-12-12 21:21:39,071:tensorflow_utils:generator_dwi/gen1_d4_deconv2d/BiasAdd[1, 48, 48, 256]
+2024-12-12 21:21:39,072:tensorflow_utils:generator_dwi/gen1_d4_split[1, 48, 48, 256]
+2024-12-12 21:21:39,162:tensorflow_utils:generator_dwi/gen1_d4_conv2d_11/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:39,170:tensorflow_utils:generator_dwi/gen1_d5_deconv2d/BiasAdd[1, 96, 96, 128]
+2024-12-12 21:21:39,171:tensorflow_utils:generator_dwi/gen1_d5_split[1, 96, 96, 128]
+2024-12-12 21:21:39,261:tensorflow_utils:generator_dwi/gen1_d6_deconv2d/BiasAdd[1, 192, 192, 64]
+2024-12-12 21:21:39,304:tensorflow_utils:generator_dwi/gen1_d7_deconv2d/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:39,306:tensorflow_utils:data/shuffle_batch[1, 384, 384, 3]
+2024-12-12 21:21:39,312:tensorflow_utils:generator_first/gen1_e0_conv2d/BiasAdd[1, 192, 192, 64]
+2024-12-12 21:21:39,415:tensorflow_utils:generator_first/gen1_e1_conv2d/BiasAdd[1, 96, 96, 128]
+2024-12-12 21:21:39,504:tensorflow_utils:generator_first/gen1_e2_conv2d/BiasAdd[1, 48, 48, 256]
+2024-12-12 21:21:39,592:tensorflow_utils:generator_first/gen1_e3_conv2d/BiasAdd[1, 24, 24, 512]
+2024-12-12 21:21:39,679:tensorflow_utils:generator_first/gen1_e4_conv2d/BiasAdd[1, 12, 12, 512]
+2024-12-12 21:21:39,768:tensorflow_utils:generator_first/gen1_e5_conv2d/BiasAdd[1, 6, 6, 512]
+2024-12-12 21:21:39,857:tensorflow_utils:generator_first/gen1_e6_conv2d/BiasAdd[1, 3, 3, 512]
+2024-12-12 21:21:39,946:tensorflow_utils:generator_first/gen1_d1_deconv2d/BiasAdd[1, 6, 6, 512]
+2024-12-12 21:21:39,947:tensorflow_utils:generator_first/gen1_d1_split[1, 6, 6, 512]
+2024-12-12 21:21:40,042:tensorflow_utils:generator_first/gen1_d2_deconv2d/BiasAdd[1, 12, 12, 512]
+2024-12-12 21:21:40,043:tensorflow_utils:generator_first/gen1_d2_split[1, 12, 12, 512]
+2024-12-12 21:21:40,137:tensorflow_utils:generator_first/gen1_d3_conv2d_11/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:40,145:tensorflow_utils:generator_first/gen1_d3_deconv2d/BiasAdd[1, 24, 24, 512]
+2024-12-12 21:21:40,146:tensorflow_utils:generator_first/gen1_d3_split_1[1, 24, 24, 512]
+2024-12-12 21:21:40,147:tensorflow_utils:generator_first/d3_split_2[1, 24, 24, 512]
+2024-12-12 21:21:40,236:tensorflow_utils:generator_first/gen1_d4_deconv2d/BiasAdd[1, 48, 48, 256]
+2024-12-12 21:21:40,237:tensorflow_utils:generator_first/gen1_d4_split[1, 48, 48, 256]
+2024-12-12 21:21:40,326:tensorflow_utils:generator_first/gen1_d4_conv2d_11/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:40,334:tensorflow_utils:generator_first/gen1_d5_deconv2d/BiasAdd[1, 96, 96, 128]
+2024-12-12 21:21:40,335:tensorflow_utils:generator_first/gen1_d5_split[1, 96, 96, 128]
+2024-12-12 21:21:40,480:tensorflow_utils:generator_first/gen1_d6_deconv2d/BiasAdd[1, 192, 192, 64]
+2024-12-12 21:21:40,525:tensorflow_utils:generator_first/gen1_d7_deconv2d/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:40,542:tensorflow_utils:gen_merge/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:46,040:tensorflow_utils:concat_1[None, 384, 384, 6]
+2024-12-12 21:21:46,041:tensorflow_utils:generator_dwi_1/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:46,096:tensorflow_utils:generator_dwi_1/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:46,171:tensorflow_utils:generator_dwi_1/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:46,246:tensorflow_utils:generator_dwi_1/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:46,322:tensorflow_utils:generator_dwi_1/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:46,398:tensorflow_utils:generator_dwi_1/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:46,472:tensorflow_utils:generator_dwi_1/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:46,549:tensorflow_utils:generator_dwi_1/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:46,551:tensorflow_utils:generator_dwi_1/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:46,632:tensorflow_utils:generator_dwi_1/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:46,633:tensorflow_utils:generator_dwi_1/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:46,714:tensorflow_utils:generator_dwi_1/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:46,717:tensorflow_utils:generator_dwi_1/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:46,718:tensorflow_utils:generator_dwi_1/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:46,719:tensorflow_utils:generator_dwi_1/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:46,795:tensorflow_utils:generator_dwi_1/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:46,796:tensorflow_utils:generator_dwi_1/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:46,874:tensorflow_utils:generator_dwi_1/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:46,877:tensorflow_utils:generator_dwi_1/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:46,878:tensorflow_utils:generator_dwi_1/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:46,954:tensorflow_utils:generator_dwi_1/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:46,978:tensorflow_utils:generator_dwi_1/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:46,980:tensorflow_utils:x1_test_tfph[None, 384, 384, 3]
+2024-12-12 21:21:46,981:tensorflow_utils:generator_first_1/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:47,034:tensorflow_utils:generator_first_1/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:47,109:tensorflow_utils:generator_first_1/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:47,183:tensorflow_utils:generator_first_1/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:47,257:tensorflow_utils:generator_first_1/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:47,331:tensorflow_utils:generator_first_1/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:47,405:tensorflow_utils:generator_first_1/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:47,481:tensorflow_utils:generator_first_1/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:47,482:tensorflow_utils:generator_first_1/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:47,563:tensorflow_utils:generator_first_1/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:47,564:tensorflow_utils:generator_first_1/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:47,646:tensorflow_utils:generator_first_1/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:47,648:tensorflow_utils:generator_first_1/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:47,649:tensorflow_utils:generator_first_1/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:47,651:tensorflow_utils:generator_first_1/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:47,728:tensorflow_utils:generator_first_1/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:47,729:tensorflow_utils:generator_first_1/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:47,806:tensorflow_utils:generator_first_1/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:47,809:tensorflow_utils:generator_first_1/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:47,810:tensorflow_utils:generator_first_1/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:47,885:tensorflow_utils:generator_first_1/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:47,909:tensorflow_utils:generator_first_1/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:47,921:tensorflow_utils:gen_merge_1/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:47,923:tensorflow_utils:concat_2[None, 384, 384, 6]
+2024-12-12 21:21:47,924:tensorflow_utils:generator_dwi_2/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:47,977:tensorflow_utils:generator_dwi_2/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:48,052:tensorflow_utils:generator_dwi_2/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:48,128:tensorflow_utils:generator_dwi_2/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:48,205:tensorflow_utils:generator_dwi_2/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:48,282:tensorflow_utils:generator_dwi_2/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:48,465:tensorflow_utils:generator_dwi_2/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:48,541:tensorflow_utils:generator_dwi_2/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:48,543:tensorflow_utils:generator_dwi_2/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:48,622:tensorflow_utils:generator_dwi_2/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:48,623:tensorflow_utils:generator_dwi_2/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:48,703:tensorflow_utils:generator_dwi_2/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:48,705:tensorflow_utils:generator_dwi_2/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:48,706:tensorflow_utils:generator_dwi_2/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:48,708:tensorflow_utils:generator_dwi_2/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:48,783:tensorflow_utils:generator_dwi_2/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:48,784:tensorflow_utils:generator_dwi_2/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:48,861:tensorflow_utils:generator_dwi_2/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:48,864:tensorflow_utils:generator_dwi_2/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:48,865:tensorflow_utils:generator_dwi_2/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:48,946:tensorflow_utils:generator_dwi_2/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:48,970:tensorflow_utils:generator_dwi_2/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:48,972:tensorflow_utils:x1_test_tfph[None, 384, 384, 3]
+2024-12-12 21:21:48,973:tensorflow_utils:generator_first_2/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:49,027:tensorflow_utils:generator_first_2/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:49,100:tensorflow_utils:generator_first_2/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:49,175:tensorflow_utils:generator_first_2/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:49,251:tensorflow_utils:generator_first_2/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:49,325:tensorflow_utils:generator_first_2/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:49,398:tensorflow_utils:generator_first_2/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:49,474:tensorflow_utils:generator_first_2/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:49,475:tensorflow_utils:generator_first_2/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:49,556:tensorflow_utils:generator_first_2/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:49,558:tensorflow_utils:generator_first_2/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:49,642:tensorflow_utils:generator_first_2/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:49,645:tensorflow_utils:generator_first_2/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:49,646:tensorflow_utils:generator_first_2/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:49,647:tensorflow_utils:generator_first_2/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:49,724:tensorflow_utils:generator_first_2/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:49,725:tensorflow_utils:generator_first_2/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:49,799:tensorflow_utils:generator_first_2/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:49,802:tensorflow_utils:generator_first_2/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:49,803:tensorflow_utils:generator_first_2/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:49,878:tensorflow_utils:generator_first_2/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:49,902:tensorflow_utils:generator_first_2/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:49,915:tensorflow_utils:gen_merge_2/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:49,917:tensorflow_utils:concat_3[None, 384, 384, 6]
+2024-12-12 21:21:49,918:tensorflow_utils:generator_dwi_3/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:49,971:tensorflow_utils:generator_dwi_3/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:50,047:tensorflow_utils:generator_dwi_3/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:50,124:tensorflow_utils:generator_dwi_3/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:50,198:tensorflow_utils:generator_dwi_3/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:50,272:tensorflow_utils:generator_dwi_3/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:50,347:tensorflow_utils:generator_dwi_3/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:50,421:tensorflow_utils:generator_dwi_3/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:50,423:tensorflow_utils:generator_dwi_3/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:50,502:tensorflow_utils:generator_dwi_3/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:50,503:tensorflow_utils:generator_dwi_3/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:50,585:tensorflow_utils:generator_dwi_3/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:50,587:tensorflow_utils:generator_dwi_3/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:50,589:tensorflow_utils:generator_dwi_3/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:50,590:tensorflow_utils:generator_dwi_3/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:50,666:tensorflow_utils:generator_dwi_3/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:50,667:tensorflow_utils:generator_dwi_3/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:50,744:tensorflow_utils:generator_dwi_3/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:50,746:tensorflow_utils:generator_dwi_3/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:50,747:tensorflow_utils:generator_dwi_3/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:50,825:tensorflow_utils:generator_dwi_3/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:50,849:tensorflow_utils:generator_dwi_3/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:50,851:tensorflow_utils:x1_test_tfph[None, 384, 384, 3]
+2024-12-12 21:21:50,852:tensorflow_utils:generator_first_3/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:50,907:tensorflow_utils:generator_first_3/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:50,982:tensorflow_utils:generator_first_3/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:51,058:tensorflow_utils:generator_first_3/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:51,133:tensorflow_utils:generator_first_3/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:51,209:tensorflow_utils:generator_first_3/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:51,283:tensorflow_utils:generator_first_3/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:51,359:tensorflow_utils:generator_first_3/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:51,360:tensorflow_utils:generator_first_3/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:51,442:tensorflow_utils:generator_first_3/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:51,444:tensorflow_utils:generator_first_3/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:51,653:tensorflow_utils:generator_first_3/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:51,656:tensorflow_utils:generator_first_3/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:51,657:tensorflow_utils:generator_first_3/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:51,658:tensorflow_utils:generator_first_3/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:51,736:tensorflow_utils:generator_first_3/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:51,737:tensorflow_utils:generator_first_3/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:51,814:tensorflow_utils:generator_first_3/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:51,817:tensorflow_utils:generator_first_3/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:51,818:tensorflow_utils:generator_first_3/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:51,895:tensorflow_utils:generator_first_3/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:51,920:tensorflow_utils:generator_first_3/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:51,932:tensorflow_utils:gen_merge_3/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:51,934:tensorflow_utils:concat_4[None, 384, 384, 6]
+2024-12-12 21:21:51,935:tensorflow_utils:generator_dwi_4/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:51,989:tensorflow_utils:generator_dwi_4/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:52,061:tensorflow_utils:generator_dwi_4/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:52,136:tensorflow_utils:generator_dwi_4/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:52,210:tensorflow_utils:generator_dwi_4/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:52,284:tensorflow_utils:generator_dwi_4/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:52,359:tensorflow_utils:generator_dwi_4/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:52,433:tensorflow_utils:generator_dwi_4/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:52,435:tensorflow_utils:generator_dwi_4/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:52,517:tensorflow_utils:generator_dwi_4/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:52,518:tensorflow_utils:generator_dwi_4/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:52,599:tensorflow_utils:generator_dwi_4/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:52,601:tensorflow_utils:generator_dwi_4/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:52,602:tensorflow_utils:generator_dwi_4/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:52,604:tensorflow_utils:generator_dwi_4/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:52,681:tensorflow_utils:generator_dwi_4/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:52,682:tensorflow_utils:generator_dwi_4/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:52,766:tensorflow_utils:generator_dwi_4/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:52,770:tensorflow_utils:generator_dwi_4/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:52,771:tensorflow_utils:generator_dwi_4/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:52,846:tensorflow_utils:generator_dwi_4/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:52,871:tensorflow_utils:generator_dwi_4/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:52,873:tensorflow_utils:x1_test_tfph[None, 384, 384, 3]
+2024-12-12 21:21:52,874:tensorflow_utils:generator_first_4/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:52,929:tensorflow_utils:generator_first_4/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:53,007:tensorflow_utils:generator_first_4/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:53,085:tensorflow_utils:generator_first_4/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:53,160:tensorflow_utils:generator_first_4/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:53,235:tensorflow_utils:generator_first_4/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:53,309:tensorflow_utils:generator_first_4/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:53,384:tensorflow_utils:generator_first_4/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:53,386:tensorflow_utils:generator_first_4/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:53,466:tensorflow_utils:generator_first_4/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:53,468:tensorflow_utils:generator_first_4/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:53,547:tensorflow_utils:generator_first_4/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:53,549:tensorflow_utils:generator_first_4/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:53,550:tensorflow_utils:generator_first_4/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:53,551:tensorflow_utils:generator_first_4/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:53,627:tensorflow_utils:generator_first_4/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:53,628:tensorflow_utils:generator_first_4/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:53,703:tensorflow_utils:generator_first_4/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:53,706:tensorflow_utils:generator_first_4/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:53,707:tensorflow_utils:generator_first_4/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:53,784:tensorflow_utils:generator_first_4/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:53,808:tensorflow_utils:generator_first_4/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:53,821:tensorflow_utils:gen_merge_4/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:53,823:tensorflow_utils:concat_5[None, 384, 384, 6]
+2024-12-12 21:21:53,824:tensorflow_utils:generator_dwi_5/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:53,878:tensorflow_utils:generator_dwi_5/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:53,952:tensorflow_utils:generator_dwi_5/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:54,028:tensorflow_utils:generator_dwi_5/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:54,104:tensorflow_utils:generator_dwi_5/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:54,178:tensorflow_utils:generator_dwi_5/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:54,254:tensorflow_utils:generator_dwi_5/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:54,329:tensorflow_utils:generator_dwi_5/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:54,331:tensorflow_utils:generator_dwi_5/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:54,412:tensorflow_utils:generator_dwi_5/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:54,413:tensorflow_utils:generator_dwi_5/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:54,495:tensorflow_utils:generator_dwi_5/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:54,497:tensorflow_utils:generator_dwi_5/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:54,498:tensorflow_utils:generator_dwi_5/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:54,499:tensorflow_utils:generator_dwi_5/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:54,576:tensorflow_utils:generator_dwi_5/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:54,577:tensorflow_utils:generator_dwi_5/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:54,651:tensorflow_utils:generator_dwi_5/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:54,653:tensorflow_utils:generator_dwi_5/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:54,655:tensorflow_utils:generator_dwi_5/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:54,729:tensorflow_utils:generator_dwi_5/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:54,754:tensorflow_utils:generator_dwi_5/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:54,755:tensorflow_utils:x1_test_tfph[None, 384, 384, 3]
+2024-12-12 21:21:54,756:tensorflow_utils:generator_first_5/gen1_e0_conv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:54,812:tensorflow_utils:generator_first_5/gen1_e1_conv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:54,889:tensorflow_utils:generator_first_5/gen1_e2_conv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:54,964:tensorflow_utils:generator_first_5/gen1_e3_conv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:55,039:tensorflow_utils:generator_first_5/gen1_e4_conv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:55,115:tensorflow_utils:generator_first_5/gen1_e5_conv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:55,190:tensorflow_utils:generator_first_5/gen1_e6_conv2d/BiasAdd[None, 3, 3, 512]
+2024-12-12 21:21:55,266:tensorflow_utils:generator_first_5/gen1_d1_deconv2d/BiasAdd[None, 6, 6, 512]
+2024-12-12 21:21:55,267:tensorflow_utils:generator_first_5/gen1_d1_split[None, 6, 6, 512]
+2024-12-12 21:21:55,349:tensorflow_utils:generator_first_5/gen1_d2_deconv2d/BiasAdd[None, 12, 12, 512]
+2024-12-12 21:21:55,350:tensorflow_utils:generator_first_5/gen1_d2_split[None, 12, 12, 512]
+2024-12-12 21:21:55,584:tensorflow_utils:generator_first_5/gen1_d3_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:55,586:tensorflow_utils:generator_first_5/gen1_d3_deconv2d/BiasAdd[None, 24, 24, 512]
+2024-12-12 21:21:55,587:tensorflow_utils:generator_first_5/gen1_d3_split_1[None, 24, 24, 512]
+2024-12-12 21:21:55,588:tensorflow_utils:generator_first_5/d3_split_2[None, 24, 24, 512]
+2024-12-12 21:21:55,664:tensorflow_utils:generator_first_5/gen1_d4_deconv2d/BiasAdd[None, 48, 48, 256]
+2024-12-12 21:21:55,666:tensorflow_utils:generator_first_5/gen1_d4_split[None, 48, 48, 256]
+2024-12-12 21:21:55,744:tensorflow_utils:generator_first_5/gen1_d4_conv2d_11/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:55,746:tensorflow_utils:generator_first_5/gen1_d5_deconv2d/BiasAdd[None, 96, 96, 128]
+2024-12-12 21:21:55,748:tensorflow_utils:generator_first_5/gen1_d5_split[None, 96, 96, 128]
+2024-12-12 21:21:55,823:tensorflow_utils:generator_first_5/gen1_d6_deconv2d/BiasAdd[None, 192, 192, 64]
+2024-12-12 21:21:55,847:tensorflow_utils:generator_first_5/gen1_d7_deconv2d/BiasAdd[None, 384, 384, 3]
+2024-12-12 21:21:55,859:tensorflow_utils:gen_merge_5/gen1_d8_conv/BiasAdd[1, 384, 384, 3]
+2024-12-12 21:21:59,057:tensorflow_utils:[ 0] generator_dwi/gen1_e0_conv2d/w:0 (3, 3, 6, 64) = 3456
+2024-12-12 21:21:59,057:tensorflow_utils:[ 1] generator_dwi/gen1_e0_conv2d/biases:0 (64,) = 64
+2024-12-12 21:21:59,057:tensorflow_utils:[ 2] generator_dwi/gen1_e0_cbam/ch_at/mlp_0/kernel:0 (64, 8) = 512
+2024-12-12 21:21:59,057:tensorflow_utils:[ 3] generator_dwi/gen1_e0_cbam/ch_at/mlp_0/bias:0 (8,) = 8
+2024-12-12 21:21:59,057:tensorflow_utils:[ 4] generator_dwi/gen1_e0_cbam/ch_at/mlp_1/kernel:0 (8, 64) = 512
+2024-12-12 21:21:59,057:tensorflow_utils:[ 5] generator_dwi/gen1_e0_cbam/ch_at/mlp_1/bias:0 (64,) = 64
+2024-12-12 21:21:59,057:tensorflow_utils:[ 6] generator_dwi/gen1_e0_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,057:tensorflow_utils:[ 7] generator_dwi/gen1_e1_conv2d/w:0 (3, 3, 64, 128) = 73728
+2024-12-12 21:21:59,057:tensorflow_utils:[ 8] generator_dwi/gen1_e1_conv2d/biases:0 (128,) = 128
+2024-12-12 21:21:59,058:tensorflow_utils:[ 9] generator_dwi/gen1_e1_batchnorm/beta:0 (128,) = 128
+2024-12-12 21:21:59,058:tensorflow_utils:[10] generator_dwi/gen1_e1_batchnorm/gamma:0 (128,) = 128
+2024-12-12 21:21:59,058:tensorflow_utils:[11] generator_dwi/gen1_e1_cbam/ch_at/mlp_0/kernel:0 (128, 16) = 2048
+2024-12-12 21:21:59,058:tensorflow_utils:[12] generator_dwi/gen1_e1_cbam/ch_at/mlp_0/bias:0 (16,) = 16
+2024-12-12 21:21:59,058:tensorflow_utils:[13] generator_dwi/gen1_e1_cbam/ch_at/mlp_1/kernel:0 (16, 128) = 2048
+2024-12-12 21:21:59,058:tensorflow_utils:[14] generator_dwi/gen1_e1_cbam/ch_at/mlp_1/bias:0 (128,) = 128
+2024-12-12 21:21:59,059:tensorflow_utils:[15] generator_dwi/gen1_e1_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,059:tensorflow_utils:[16] generator_dwi/gen1_e2_conv2d/w:0 (3, 3, 128, 256) = 294912
+2024-12-12 21:21:59,059:tensorflow_utils:[17] generator_dwi/gen1_e2_conv2d/biases:0 (256,) = 256
+2024-12-12 21:21:59,059:tensorflow_utils:[18] generator_dwi/gen1_e2_batchnorm/beta:0 (256,) = 256
+2024-12-12 21:21:59,059:tensorflow_utils:[19] generator_dwi/gen1_e2_batchnorm/gamma:0 (256,) = 256
+2024-12-12 21:21:59,059:tensorflow_utils:[20] generator_dwi/gen1_e2_cbam/ch_at/mlp_0/kernel:0 (256, 32) = 8192
+2024-12-12 21:21:59,059:tensorflow_utils:[21] generator_dwi/gen1_e2_cbam/ch_at/mlp_0/bias:0 (32,) = 32
+2024-12-12 21:21:59,059:tensorflow_utils:[22] generator_dwi/gen1_e2_cbam/ch_at/mlp_1/kernel:0 (32, 256) = 8192
+2024-12-12 21:21:59,059:tensorflow_utils:[23] generator_dwi/gen1_e2_cbam/ch_at/mlp_1/bias:0 (256,) = 256
+2024-12-12 21:21:59,059:tensorflow_utils:[24] generator_dwi/gen1_e2_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,059:tensorflow_utils:[25] generator_dwi/gen1_e3_conv2d/w:0 (3, 3, 256, 512) = 1179648
+2024-12-12 21:21:59,060:tensorflow_utils:[26] generator_dwi/gen1_e3_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,060:tensorflow_utils:[27] generator_dwi/gen1_e3_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,060:tensorflow_utils:[28] generator_dwi/gen1_e3_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,060:tensorflow_utils:[29] generator_dwi/gen1_e3_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,060:tensorflow_utils:[30] generator_dwi/gen1_e3_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,060:tensorflow_utils:[31] generator_dwi/gen1_e3_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,060:tensorflow_utils:[32] generator_dwi/gen1_e3_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,060:tensorflow_utils:[33] generator_dwi/gen1_e3_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,060:tensorflow_utils:[34] generator_dwi/gen1_e4_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,060:tensorflow_utils:[35] generator_dwi/gen1_e4_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,060:tensorflow_utils:[36] generator_dwi/gen1_e4_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[37] generator_dwi/gen1_e4_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[38] generator_dwi/gen1_e4_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,061:tensorflow_utils:[39] generator_dwi/gen1_e4_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,061:tensorflow_utils:[40] generator_dwi/gen1_e4_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,061:tensorflow_utils:[41] generator_dwi/gen1_e4_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[42] generator_dwi/gen1_e4_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,061:tensorflow_utils:[43] generator_dwi/gen1_e5_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,061:tensorflow_utils:[44] generator_dwi/gen1_e5_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[45] generator_dwi/gen1_e5_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[46] generator_dwi/gen1_e5_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,061:tensorflow_utils:[47] generator_dwi/gen1_e5_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,073:tensorflow_utils:[48] generator_dwi/gen1_e5_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,073:tensorflow_utils:[49] generator_dwi/gen1_e5_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,073:tensorflow_utils:[50] generator_dwi/gen1_e5_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,073:tensorflow_utils:[51] generator_dwi/gen1_e5_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,073:tensorflow_utils:[52] generator_dwi/gen1_e6_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,073:tensorflow_utils:[53] generator_dwi/gen1_e6_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,073:tensorflow_utils:[54] generator_dwi/gen1_e6_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[55] generator_dwi/gen1_e6_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[56] generator_dwi/gen1_e6_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,074:tensorflow_utils:[57] generator_dwi/gen1_e6_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,074:tensorflow_utils:[58] generator_dwi/gen1_e6_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,074:tensorflow_utils:[59] generator_dwi/gen1_e6_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[60] generator_dwi/gen1_e6_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,074:tensorflow_utils:[61] generator_dwi/gen1_d1_deconv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,074:tensorflow_utils:[62] generator_dwi/gen1_d1_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[63] generator_dwi/gen1_d1_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[64] generator_dwi/gen1_d1_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,074:tensorflow_utils:[65] generator_dwi/gen1_d1_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,075:tensorflow_utils:[66] generator_dwi/gen1_d1_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,075:tensorflow_utils:[67] generator_dwi/gen1_d1_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,075:tensorflow_utils:[68] generator_dwi/gen1_d1_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,075:tensorflow_utils:[69] generator_dwi/gen1_d1_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,075:tensorflow_utils:[70] generator_dwi/gen1_d2_deconv2d/w:0 (3, 3, 1024, 512) = 4718592
+2024-12-12 21:21:59,075:tensorflow_utils:[71] generator_dwi/gen1_d2_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,075:tensorflow_utils:[72] generator_dwi/gen1_d2_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,075:tensorflow_utils:[73] generator_dwi/gen1_d2_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,075:tensorflow_utils:[74] generator_dwi/gen1_d2_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,075:tensorflow_utils:[75] generator_dwi/gen1_d2_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,075:tensorflow_utils:[76] generator_dwi/gen1_d2_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,075:tensorflow_utils:[77] generator_dwi/gen1_d2_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,076:tensorflow_utils:[78] generator_dwi/gen1_d2_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,076:tensorflow_utils:[79] generator_dwi/gen1_d3_conv2d_11/w:0 (3, 3, 1024, 3) = 27648
+2024-12-12 21:21:59,076:tensorflow_utils:[80] generator_dwi/gen1_d3_conv2d_11/biases:0 (3,) = 3
+2024-12-12 21:21:59,076:tensorflow_utils:[81] generator_dwi/gen1_d3_deconv2d/w:0 (3, 3, 1024, 512) = 4718592
+2024-12-12 21:21:59,076:tensorflow_utils:[82] generator_dwi/gen1_d3_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,076:tensorflow_utils:[83] generator_dwi/gen1_d3_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,076:tensorflow_utils:[84] generator_dwi/gen1_d3_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,076:tensorflow_utils:[85] generator_dwi/gen1_d3_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,076:tensorflow_utils:[86] generator_dwi/gen1_d3_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,089:tensorflow_utils:[87] generator_dwi/gen1_d3_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,089:tensorflow_utils:[88] generator_dwi/gen1_d3_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,089:tensorflow_utils:[89] generator_dwi/gen1_d3_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,089:tensorflow_utils:[90] generator_dwi/gen1_d4_deconv2d/w:0 (3, 3, 1024, 256) = 2359296
+2024-12-12 21:21:59,089:tensorflow_utils:[91] generator_dwi/gen1_d4_deconv2d/biases:0 (256,) = 256
+2024-12-12 21:21:59,089:tensorflow_utils:[92] generator_dwi/gen1_d4_batchnorm/beta:0 (256,) = 256
+2024-12-12 21:21:59,089:tensorflow_utils:[93] generator_dwi/gen1_d4_batchnorm/gamma:0 (256,) = 256
+2024-12-12 21:21:59,089:tensorflow_utils:[94] generator_dwi/gen1_d4_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,090:tensorflow_utils:[95] generator_dwi/gen1_d4_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,090:tensorflow_utils:[96] generator_dwi/gen1_d4_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,090:tensorflow_utils:[97] generator_dwi/gen1_d4_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,090:tensorflow_utils:[98] generator_dwi/gen1_d4_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,090:tensorflow_utils:[99] generator_dwi/gen1_d4_conv2d_11/w:0 (3, 3, 512, 3) = 13824
+2024-12-12 21:21:59,090:tensorflow_utils:[100] generator_dwi/gen1_d4_conv2d_11/biases:0 (3,) = 3
+2024-12-12 21:21:59,090:tensorflow_utils:[101] generator_dwi/gen1_d5_deconv2d/w:0 (3, 3, 512, 128) = 589824
+2024-12-12 21:21:59,090:tensorflow_utils:[102] generator_dwi/gen1_d5_deconv2d/biases:0 (128,) = 128
+2024-12-12 21:21:59,090:tensorflow_utils:[103] generator_dwi/gen1_d5_batchnorm/beta:0 (128,) = 128
+2024-12-12 21:21:59,090:tensorflow_utils:[104] generator_dwi/gen1_d5_batchnorm/gamma:0 (128,) = 128
+2024-12-12 21:21:59,090:tensorflow_utils:[105] generator_dwi/gen1_d5_cbam/ch_at/mlp_0/kernel:0 (256, 32) = 8192
+2024-12-12 21:21:59,091:tensorflow_utils:[106] generator_dwi/gen1_d5_cbam/ch_at/mlp_0/bias:0 (32,) = 32
+2024-12-12 21:21:59,091:tensorflow_utils:[107] generator_dwi/gen1_d5_cbam/ch_at/mlp_1/kernel:0 (32, 256) = 8192
+2024-12-12 21:21:59,091:tensorflow_utils:[108] generator_dwi/gen1_d5_cbam/ch_at/mlp_1/bias:0 (256,) = 256
+2024-12-12 21:21:59,091:tensorflow_utils:[109] generator_dwi/gen1_d5_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,091:tensorflow_utils:[110] generator_dwi/gen1_d6_deconv2d/w:0 (3, 3, 256, 64) = 147456
+2024-12-12 21:21:59,091:tensorflow_utils:[111] generator_dwi/gen1_d6_deconv2d/biases:0 (64,) = 64
+2024-12-12 21:21:59,091:tensorflow_utils:[112] generator_dwi/gen1_d6_batchnorm/beta:0 (64,) = 64
+2024-12-12 21:21:59,091:tensorflow_utils:[113] generator_dwi/gen1_d6_batchnorm/gamma:0 (64,) = 64
+2024-12-12 21:21:59,091:tensorflow_utils:[114] generator_dwi/gen1_d7_deconv2d/w:0 (3, 3, 128, 3) = 3456
+2024-12-12 21:21:59,091:tensorflow_utils:[115] generator_dwi/gen1_d7_deconv2d/biases:0 (3,) = 3
+2024-12-12 21:21:59,091:tensorflow_utils:[116] generator_first/gen1_e0_conv2d/w:0 (3, 3, 3, 64) = 1728
+2024-12-12 21:21:59,092:tensorflow_utils:[117] generator_first/gen1_e0_conv2d/biases:0 (64,) = 64
+2024-12-12 21:21:59,092:tensorflow_utils:[118] generator_first/gen1_e0_cbam/ch_at/mlp_0/kernel:0 (64, 8) = 512
+2024-12-12 21:21:59,092:tensorflow_utils:[119] generator_first/gen1_e0_cbam/ch_at/mlp_0/bias:0 (8,) = 8
+2024-12-12 21:21:59,092:tensorflow_utils:[120] generator_first/gen1_e0_cbam/ch_at/mlp_1/kernel:0 (8, 64) = 512
+2024-12-12 21:21:59,092:tensorflow_utils:[121] generator_first/gen1_e0_cbam/ch_at/mlp_1/bias:0 (64,) = 64
+2024-12-12 21:21:59,092:tensorflow_utils:[122] generator_first/gen1_e0_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,092:tensorflow_utils:[123] generator_first/gen1_e1_conv2d/w:0 (3, 3, 64, 128) = 73728
+2024-12-12 21:21:59,092:tensorflow_utils:[124] generator_first/gen1_e1_conv2d/biases:0 (128,) = 128
+2024-12-12 21:21:59,092:tensorflow_utils:[125] generator_first/gen1_e1_batchnorm/beta:0 (128,) = 128
+2024-12-12 21:21:59,104:tensorflow_utils:[126] generator_first/gen1_e1_batchnorm/gamma:0 (128,) = 128
+2024-12-12 21:21:59,104:tensorflow_utils:[127] generator_first/gen1_e1_cbam/ch_at/mlp_0/kernel:0 (128, 16) = 2048
+2024-12-12 21:21:59,104:tensorflow_utils:[128] generator_first/gen1_e1_cbam/ch_at/mlp_0/bias:0 (16,) = 16
+2024-12-12 21:21:59,104:tensorflow_utils:[129] generator_first/gen1_e1_cbam/ch_at/mlp_1/kernel:0 (16, 128) = 2048
+2024-12-12 21:21:59,104:tensorflow_utils:[130] generator_first/gen1_e1_cbam/ch_at/mlp_1/bias:0 (128,) = 128
+2024-12-12 21:21:59,104:tensorflow_utils:[131] generator_first/gen1_e1_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,104:tensorflow_utils:[132] generator_first/gen1_e2_conv2d/w:0 (3, 3, 128, 256) = 294912
+2024-12-12 21:21:59,105:tensorflow_utils:[133] generator_first/gen1_e2_conv2d/biases:0 (256,) = 256
+2024-12-12 21:21:59,105:tensorflow_utils:[134] generator_first/gen1_e2_batchnorm/beta:0 (256,) = 256
+2024-12-12 21:21:59,105:tensorflow_utils:[135] generator_first/gen1_e2_batchnorm/gamma:0 (256,) = 256
+2024-12-12 21:21:59,105:tensorflow_utils:[136] generator_first/gen1_e2_cbam/ch_at/mlp_0/kernel:0 (256, 32) = 8192
+2024-12-12 21:21:59,105:tensorflow_utils:[137] generator_first/gen1_e2_cbam/ch_at/mlp_0/bias:0 (32,) = 32
+2024-12-12 21:21:59,105:tensorflow_utils:[138] generator_first/gen1_e2_cbam/ch_at/mlp_1/kernel:0 (32, 256) = 8192
+2024-12-12 21:21:59,105:tensorflow_utils:[139] generator_first/gen1_e2_cbam/ch_at/mlp_1/bias:0 (256,) = 256
+2024-12-12 21:21:59,105:tensorflow_utils:[140] generator_first/gen1_e2_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,105:tensorflow_utils:[141] generator_first/gen1_e3_conv2d/w:0 (3, 3, 256, 512) = 1179648
+2024-12-12 21:21:59,105:tensorflow_utils:[142] generator_first/gen1_e3_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,105:tensorflow_utils:[143] generator_first/gen1_e3_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,105:tensorflow_utils:[144] generator_first/gen1_e3_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,106:tensorflow_utils:[145] generator_first/gen1_e3_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,106:tensorflow_utils:[146] generator_first/gen1_e3_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,106:tensorflow_utils:[147] generator_first/gen1_e3_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,106:tensorflow_utils:[148] generator_first/gen1_e3_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,106:tensorflow_utils:[149] generator_first/gen1_e3_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,106:tensorflow_utils:[150] generator_first/gen1_e4_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,106:tensorflow_utils:[151] generator_first/gen1_e4_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,106:tensorflow_utils:[152] generator_first/gen1_e4_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,106:tensorflow_utils:[153] generator_first/gen1_e4_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,106:tensorflow_utils:[154] generator_first/gen1_e4_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,106:tensorflow_utils:[155] generator_first/gen1_e4_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,107:tensorflow_utils:[156] generator_first/gen1_e4_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,107:tensorflow_utils:[157] generator_first/gen1_e4_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,107:tensorflow_utils:[158] generator_first/gen1_e4_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,107:tensorflow_utils:[159] generator_first/gen1_e5_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,107:tensorflow_utils:[160] generator_first/gen1_e5_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,107:tensorflow_utils:[161] generator_first/gen1_e5_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,107:tensorflow_utils:[162] generator_first/gen1_e5_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,107:tensorflow_utils:[163] generator_first/gen1_e5_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,119:tensorflow_utils:[164] generator_first/gen1_e5_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,119:tensorflow_utils:[165] generator_first/gen1_e5_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,119:tensorflow_utils:[166] generator_first/gen1_e5_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,119:tensorflow_utils:[167] generator_first/gen1_e5_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,119:tensorflow_utils:[168] generator_first/gen1_e6_conv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,119:tensorflow_utils:[169] generator_first/gen1_e6_conv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,119:tensorflow_utils:[170] generator_first/gen1_e6_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,119:tensorflow_utils:[171] generator_first/gen1_e6_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,120:tensorflow_utils:[172] generator_first/gen1_e6_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,120:tensorflow_utils:[173] generator_first/gen1_e6_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,120:tensorflow_utils:[174] generator_first/gen1_e6_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,120:tensorflow_utils:[175] generator_first/gen1_e6_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,120:tensorflow_utils:[176] generator_first/gen1_e6_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,120:tensorflow_utils:[177] generator_first/gen1_d1_deconv2d/w:0 (3, 3, 512, 512) = 2359296
+2024-12-12 21:21:59,120:tensorflow_utils:[178] generator_first/gen1_d1_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,120:tensorflow_utils:[179] generator_first/gen1_d1_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,120:tensorflow_utils:[180] generator_first/gen1_d1_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,120:tensorflow_utils:[181] generator_first/gen1_d1_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,121:tensorflow_utils:[182] generator_first/gen1_d1_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,121:tensorflow_utils:[183] generator_first/gen1_d1_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,121:tensorflow_utils:[184] generator_first/gen1_d1_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,121:tensorflow_utils:[185] generator_first/gen1_d1_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,121:tensorflow_utils:[186] generator_first/gen1_d2_deconv2d/w:0 (3, 3, 1024, 512) = 4718592
+2024-12-12 21:21:59,121:tensorflow_utils:[187] generator_first/gen1_d2_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,121:tensorflow_utils:[188] generator_first/gen1_d2_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,121:tensorflow_utils:[189] generator_first/gen1_d2_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,121:tensorflow_utils:[190] generator_first/gen1_d2_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,121:tensorflow_utils:[191] generator_first/gen1_d2_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,122:tensorflow_utils:[192] generator_first/gen1_d2_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,122:tensorflow_utils:[193] generator_first/gen1_d2_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,122:tensorflow_utils:[194] generator_first/gen1_d2_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,122:tensorflow_utils:[195] generator_first/gen1_d3_conv2d_11/w:0 (3, 3, 1024, 3) = 27648
+2024-12-12 21:21:59,122:tensorflow_utils:[196] generator_first/gen1_d3_conv2d_11/biases:0 (3,) = 3
+2024-12-12 21:21:59,122:tensorflow_utils:[197] generator_first/gen1_d3_deconv2d/w:0 (3, 3, 1024, 512) = 4718592
+2024-12-12 21:21:59,122:tensorflow_utils:[198] generator_first/gen1_d3_deconv2d/biases:0 (512,) = 512
+2024-12-12 21:21:59,122:tensorflow_utils:[199] generator_first/gen1_d3_batchnorm/beta:0 (512,) = 512
+2024-12-12 21:21:59,122:tensorflow_utils:[200] generator_first/gen1_d3_batchnorm/gamma:0 (512,) = 512
+2024-12-12 21:21:59,123:tensorflow_utils:[201] generator_first/gen1_d3_cbam/ch_at/mlp_0/kernel:0 (1024, 128) = 131072
+2024-12-12 21:21:59,135:tensorflow_utils:[202] generator_first/gen1_d3_cbam/ch_at/mlp_0/bias:0 (128,) = 128
+2024-12-12 21:21:59,135:tensorflow_utils:[203] generator_first/gen1_d3_cbam/ch_at/mlp_1/kernel:0 (128, 1024) = 131072
+2024-12-12 21:21:59,135:tensorflow_utils:[204] generator_first/gen1_d3_cbam/ch_at/mlp_1/bias:0 (1024,) = 1024
+2024-12-12 21:21:59,135:tensorflow_utils:[205] generator_first/gen1_d3_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,135:tensorflow_utils:[206] generator_first/gen1_d4_deconv2d/w:0 (3, 3, 1024, 256) = 2359296
+2024-12-12 21:21:59,135:tensorflow_utils:[207] generator_first/gen1_d4_deconv2d/biases:0 (256,) = 256
+2024-12-12 21:21:59,136:tensorflow_utils:[208] generator_first/gen1_d4_batchnorm/beta:0 (256,) = 256
+2024-12-12 21:21:59,136:tensorflow_utils:[209] generator_first/gen1_d4_batchnorm/gamma:0 (256,) = 256
+2024-12-12 21:21:59,136:tensorflow_utils:[210] generator_first/gen1_d4_cbam/ch_at/mlp_0/kernel:0 (512, 64) = 32768
+2024-12-12 21:21:59,136:tensorflow_utils:[211] generator_first/gen1_d4_cbam/ch_at/mlp_0/bias:0 (64,) = 64
+2024-12-12 21:21:59,136:tensorflow_utils:[212] generator_first/gen1_d4_cbam/ch_at/mlp_1/kernel:0 (64, 512) = 32768
+2024-12-12 21:21:59,136:tensorflow_utils:[213] generator_first/gen1_d4_cbam/ch_at/mlp_1/bias:0 (512,) = 512
+2024-12-12 21:21:59,136:tensorflow_utils:[214] generator_first/gen1_d4_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,136:tensorflow_utils:[215] generator_first/gen1_d4_conv2d_11/w:0 (3, 3, 512, 3) = 13824
+2024-12-12 21:21:59,137:tensorflow_utils:[216] generator_first/gen1_d4_conv2d_11/biases:0 (3,) = 3
+2024-12-12 21:21:59,137:tensorflow_utils:[217] generator_first/gen1_d5_deconv2d/w:0 (3, 3, 512, 128) = 589824
+2024-12-12 21:21:59,137:tensorflow_utils:[218] generator_first/gen1_d5_deconv2d/biases:0 (128,) = 128
+2024-12-12 21:21:59,137:tensorflow_utils:[219] generator_first/gen1_d5_batchnorm/beta:0 (128,) = 128
+2024-12-12 21:21:59,137:tensorflow_utils:[220] generator_first/gen1_d5_batchnorm/gamma:0 (128,) = 128
+2024-12-12 21:21:59,137:tensorflow_utils:[221] generator_first/gen1_d5_cbam/ch_at/mlp_0/kernel:0 (256, 32) = 8192
+2024-12-12 21:21:59,137:tensorflow_utils:[222] generator_first/gen1_d5_cbam/ch_at/mlp_0/bias:0 (32,) = 32
+2024-12-12 21:21:59,138:tensorflow_utils:[223] generator_first/gen1_d5_cbam/ch_at/mlp_1/kernel:0 (32, 256) = 8192
+2024-12-12 21:21:59,138:tensorflow_utils:[224] generator_first/gen1_d5_cbam/ch_at/mlp_1/bias:0 (256,) = 256
+2024-12-12 21:21:59,138:tensorflow_utils:[225] generator_first/gen1_d5_cbam/sp_at/conv/kernel:0 (7, 7, 2, 1) = 98
+2024-12-12 21:21:59,138:tensorflow_utils:[226] generator_first/gen1_d6_deconv2d/w:0 (3, 3, 256, 64) = 147456
+2024-12-12 21:21:59,138:tensorflow_utils:[227] generator_first/gen1_d6_deconv2d/biases:0 (64,) = 64
+2024-12-12 21:21:59,138:tensorflow_utils:[228] generator_first/gen1_d6_batchnorm/beta:0 (64,) = 64
+2024-12-12 21:21:59,138:tensorflow_utils:[229] generator_first/gen1_d6_batchnorm/gamma:0 (64,) = 64
+2024-12-12 21:21:59,139:tensorflow_utils:[230] generator_first/gen1_d7_deconv2d/w:0 (3, 3, 128, 3) = 3456
+2024-12-12 21:21:59,139:tensorflow_utils:[231] generator_first/gen1_d7_deconv2d/biases:0 (3,) = 3
+2024-12-12 21:21:59,139:tensorflow_utils:[232] gen_merge/gen1_d8_conv/w:0 (3, 3, 3, 3) = 81
+2024-12-12 21:21:59,139:tensorflow_utils:[233] gen_merge/gen1_d8_conv/biases:0 (3,) = 3
+2024-12-12 21:21:59,139:tensorflow_utils:[Total] variable size: 49,480,838

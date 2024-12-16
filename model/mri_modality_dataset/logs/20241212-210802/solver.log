@@ -1,0 +1,11 @@
+2024-12-12 21:08:02,421:solver:gpu_index: 1
+2024-12-12 21:08:02,454:solver:batch_size: 1
+2024-12-12 21:08:02,454:solver:dataset: mri_modality_dataset
+2024-12-12 21:08:02,455:solver:is_train: True
+2024-12-12 21:08:02,455:solver:learning_rate: 0.0002
+2024-12-12 21:08:02,455:solver:beta1: 0.5
+2024-12-12 21:08:02,455:solver:iters: 200000
+2024-12-12 21:08:02,455:solver:print_freq: 100
+2024-12-12 21:08:02,455:solver:save_freq: 500
+2024-12-12 21:08:02,455:solver:sample_freq: 500
+2024-12-12 21:08:02,455:solver:load_model: None
